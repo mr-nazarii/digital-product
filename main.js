@@ -173,6 +173,12 @@ $(window).on("load", function () {
             let lastData = $(".search").find(
               `[data-employee='${$(last).attr("data-employee")}']`
             );
+            $(currentData).animate(
+              {
+                opacity: 0,
+              },
+              0
+            );
 
             $(lastData).removeClass("hidden-employee").animate(
               {
