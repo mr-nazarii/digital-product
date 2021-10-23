@@ -1,0 +1,1420 @@
+body {
+  overflow-y: scroll;
+}
+
+.page-body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  max-width: 1160px;
+  display: block;
+  margin: 0 auto;
+}
+.header {
+  background-image: url(../img/Sections-background/section-1-header.jpg);
+  background-attachment: fixed;
+}
+/* Navbar  */
+.navbar {
+  background-color: rgba(94, 93, 88, 0.6);
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 21px;
+  padding-bottom: 27px;
+}
+
+.list-items:hover .standard-link {
+  color: #18cfab;
+  border-bottom: #18cfab solid 2px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.list-items {
+  margin-right: 21.09px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.ls {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.standard-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.special {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.margin-off {
+  margin: 0px;
+}
+
+.relative {
+  position: relative;
+}
+
+.part-off-logo {
+  position: absolute;
+  right: 151px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 31px;
+}
+
+/* Header  */
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan-uppertitle {
+  margin-top: 264px;
+  margin-bottom: 0px;
+
+  padding: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.slogan-title {
+  padding: 30px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 78px;
+  line-height: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.slogan-subtitle {
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 1px;
+  color: #d4d4d4;
+  margin-bottom: 134px;
+}
+
+.btn {
+  padding: 13px 20px 13px 20px;
+  display: inline-block;
+  margin-right: 26px;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 243px;
+  border-top: 3px #ffffff solid;
+}
+.btn1 {
+  background: #18cfab;
+}
+
+.btn2 {
+  background: #00cbf6;
+}
+
+.special-green {
+  color: #18cfab;
+  font-weight: bold;
+}
+
+/* Servises p1 */
+
+.page-servises {
+  display: flex;
+}
+.servises-our-best {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 482px;
+  background: #1c2a33;
+  justify-content: space-between;
+  border-top: 10px solid #ffffff;
+  border-bottom: 10px solid #ffffff;
+}
+
+.green-sr {
+  background: #18cfab;
+}
+
+.img-servises {
+  margin-top: 85px;
+  margin-bottom: 47px;
+}
+
+.servises-p {
+  margin-top: 0px;
+  margin-bottom: 110px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.p-dark {
+  color: #18cfab;
+}
+
+.p-light {
+  color: #ffffff;
+}
+
+/* Servises p2 */
+
+.section-title {
+  position: relative;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 83px;
+  margin-bottom: 101px;
+}
+
+.section-title::after {
+  content: url(../img/graphic-design/shape1.svg);
+  position: absolute;
+  top: 40px;
+  right: 535px;
+}
+
+.section-title::before {
+  content: url(../img/graphic-design/shape2.svg);
+  position: absolute;
+  top: 35px;
+  right: 545px;
+}
+
+.section-servises {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 23px;
+}
+
+.section-service-item {
+  position: relative;
+  transition: ease-out 200ms;
+  flex-grow: 1;
+}
+
+.section-service-item:hover .section-button {
+  border: 1.8px solid #18cfab;
+}
+
+.active-button {
+  background: #18cfab;
+  color: #f8fcfe;
+  transition: ease-out 200ms;
+}
+
+.active-button::after {
+  content: url(../img/Rectangle.svg);
+  position: absolute;
+  bottom: -24px;
+  left: 45%;
+  transition: ease-out 200ms;
+}
+
+.standard-color {
+  background: #f8fcfe;
+  color: #717171;
+}
+
+.section-button {
+  padding: 15px 40.8px 15px 40.8px;
+  border: 1.8px solid #edefef;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.9859px;
+  line-height: 39px;
+}
+
+.active-link {
+  color: #ffffff;
+}
+
+.contents-servises {
+  display: flex;
+  gap: 15px;
+}
+
+.description {
+  display: none;
+  margin: 0px 0px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.645px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.img-description {
+  margin-bottom: 91px;
+  display: none;
+}
+
+/* Buy Product */
+
+.purchase-section {
+  background-image: url(../img/Sections-background/Layer-21-21.jpg);
+}
+
+.purchase-slogan {
+  margin-top: 0;
+  margin-bottom: 13px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.purchase-section > .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container > .center > .btn {
+  margin: 0;
+}
+
+.purchase-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  color: #d8d8d8;
+  margin: 0 0 62px 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Work */
+
+.work-section {
+  background: #e9edef;
+}
+
+.section-works {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 71px;
+}
+
+.section-link {
+  color: #717171;
+  background: #f8fcfe;
+  border: 1.8px solid #edefef;
+  transition: ease-out 200ms;
+  padding: 14px 15px 14px 15px;
+}
+
+.section-link:hover {
+  border: 1.8px solid #18cfab;
+}
+
+.work-section > .container > .section-title {
+  margin-top: 0px;
+}
+
+.work-section > .container {
+  padding-top: 96px;
+}
+
+.grid-container {
+  display: grid;
+  list-style-type: none;
+  padding: 0;
+  grid-template-columns: repeat(4, 285px);
+  grid-auto-rows: 211px;
+  gap: 0;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.load-elements {
+  position: absolute;
+  top: -1000px;
+}
+
+.load-elements-more {
+  position: absolute;
+  top: -1000px;
+}
+
+.inner-item {
+  position: absolute;
+  background-color: #e9edef;
+  width: 285px;
+  height: 211px;
+  top: 0px;
+  display: flex;
+  visibility: hidden;
+}
+
+.grid-item:hover > .inner-item {
+  visibility: visible;
+  border-top: #18cfab 2px solid;
+  transition: ease-out 200ms;
+}
+
+.link {
+  display: flex;
+  position: absolute;
+
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #18cfab;
+}
+
+.link1 {
+  top: 48px;
+  left: 95px;
+}
+
+.link2 {
+  top: 48px;
+  right: 96px;
+}
+
+.item-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14.1771px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #18cfab;
+  position: absolute;
+  top: 106px;
+}
+
+.item-desc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.1518px;
+  line-height: 25px;
+  color: #8a8a8a;
+  position: absolute;
+  top: 135px;
+}
+
+.load-more1 {
+  padding: 13px 20px 13px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0px;
+  margin-top: 70px;
+  padding-left: 56px;
+  position: relative;
+  margin-bottom: 70px;
+  margin-right: 0;
+  border: none;
+}
+
+.load-more2 {
+  padding: 13px 20px 13px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0px;
+  margin-top: 70px;
+  padding-left: 56px;
+  position: relative;
+  margin-bottom: 70px;
+  margin-right: 0;
+  border: none;
+}
+
+.load-more1::after {
+  content: url(../img/graphic-design/Forma.svg);
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 23px;
+}
+
+.load-more2::after {
+  content: url(../img/graphic-design/Forma.svg);
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 23px;
+}
+
+/* News */
+
+.news-section {
+  margin-bottom: 128px;
+}
+
+.grid-news-container {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 263px);
+  gap: 35px;
+  padding: 0;
+}
+
+.grid-news-item {
+  position: relative;
+}
+
+.grid-news-item:hover .date {
+  background: #18cfab;
+  transition: ease-out 200ms;
+}
+
+.grid-news-item:hover .news-title {
+  color: #18cfab;
+  transition: ease-out 200ms;
+}
+
+.grid-news-item:hover .author {
+  color: #18cfab;
+  transition: ease-out 200ms;
+}
+
+.grid-news-item:hover .comments {
+  color: #18cfab;
+  transition: ease-out 200ms;
+}
+
+.news-link {
+  text-decoration: none;
+}
+
+.date {
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  top: -16px;
+  right: 0px;
+  color: #ffffff;
+  text-align: center;
+  background: #203e38;
+  padding: 8px 17px 8px 17px;
+}
+
+.news-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17.9885px;
+  line-height: 39px;
+  color: #717171;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.author,
+.comments {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.991px;
+  line-height: 39px;
+  color: #777777;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.author::after {
+  content: "|";
+  position: absolute;
+  left: 96px;
+}
+
+.comments {
+  position: absolute;
+  top: 251px;
+  right: 70px;
+}
+
+/* Feedback */
+
+.section-feedback {
+  background-image: url(../img/Sections-background/Layer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-feedback > .container {
+  padding-top: 98px;
+  padding-bottom: 104px;
+}
+
+.section-feedback > .container > .section-title {
+  color: #ffffff;
+}
+
+.center-dynamic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.svg-employee {
+  margin-bottom: 117px;
+}
+
+.search {
+  position: relative;
+}
+
+.dynamic-p {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #bbbbbb;
+  text-align: center;
+}
+
+.dynamic-p:first-of-type {
+  left: 279.274px;
+}
+
+.dynamic-name {
+  margin-top: 37px;
+  margin-bottom: 2px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #18cfab;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dynamic-job-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 30px;
+  color: #bbbbbb;
+  text-align: center;
+}
+
+.employee {
+  border-radius: 50%;
+  border: solid 11px rgba(31, 218, 181, 0.24);
+}
+
+.employee-bar {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 450px;
+  position: relative;
+}
+
+.employee-bar .employee {
+  border: solid 5px rgba(31, 218, 181, 0.24);
+}
+
+.btn-next {
+  background-color: #71717100;
+  border: 1px solid #bbbbbb;
+  color: #bbbbbb;
+  width: 31px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-next:hover {
+  background: #18cfab;
+  border: 1px solid #bbbbbb00;
+}
+
+.svg {
+  fill: #bbbbbb;
+  pointer-events: none;
+}
+
+.btn-next:hover > .svg {
+  fill: #ffffff;
+}
+
+/* Gallery */
+
+.main-posts-list {
+  display: flex;
+  width: 1160px;
+  height: 890px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-grow: 1;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.load-more:last-of-type {
+  position: relative;
+  top: -50px;
+}
+
+/* Footer */
+
+.copyright .special-green {
+  font-weight: normal;
+}
+
+.page-footer {
+  background: #22353f;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #aeaeae;
+}
+/* Utilites */
+
+.active-item {
+  display: inline-block;
+}
+
+.btn-employee {
+  border-radius: 50%;
+  width: 60px;
+  height: 59px;
+  border: none;
+  position: absolute;
+  background-color: #ffffff00;
+}
+
+.active-employee {
+  position: relative;
+  top: -8px;
+}
+
+.hidden-employee {
+  display: none;
+}
+
+.inner-container {
+  background-color: rgba(0, 0, 0, 0.64);
+  height: 98.7%;
+  width: 100%;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+}
+
+.posts-list-item:hover .inner-container {
+  display: flex;
+}
+
+.posts-list-item {
+  position: relative;
+}
+
+.btn-search {
+  width: 27px;
+  height: 25px;
+  background: #14b9d5;
+  border: none;
+  margin-left: 20px;
+}
+
+.btn-open {
+  width: 27px;
+  height: 25px;
+  background: #14b9d5;
+  border: none;
+  margin-left: 20px;
+}
+
+.gallery-search-svg {
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-open-svg {
+  position: relative;
+  z-index: 2;
+}
+
+.item-img {
+  object-fit: cover;
+}
+
+.wrapper {
+  margin: 0;
+  border: none;
+  padding: 0;
+  margin-bottom: 44px;
+  width: 166px;
+  height: 166px;
+}
+
+.subgrid-item,
+.subgrid-item--width2 {
+  position: relative;
+
+  display: inline-block;
+}
+
+.subgrid-item > img {
+  position: relative;
+
+  width: 119px;
+  height: 90px;
+}
+
+.subgrid-item {
+  width: 119px;
+  height: 90px;
+}
+
+.subgrid-item--width2 > img {
+  position: relative;
+
+  width: 180px;
+  height: 168px;
+}
+
+.subgrid-item--width2 {
+  width: 180px;
+  height: 168px;
+}
+
+#subgrid {
+  width: 100%;
+  height: 453px;
+}
+
+.subgrid-container {
+  background-color: rgba(0, 0, 0, 0.64);
+  height: 98.7%;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.subgrid-item--width2:hover .subgrid-container {
+  z-index: 1;
+}
+
+.subgrid-item:hover .subgrid-container {
+  z-index: 1;
+}
+
+.hidden-grid-item {
+  display: none;
+}
+
+.masonry {
+  padding: 0;
+  list-style-type: none;
+}
+
+.masonry-sizer {
+  width: 378px;
+}
+
+.masonry-item {
+  width: 367px;
+  margin-bottom: 13px;
+}
+
+.masonry-item > img {
+  width: 100%;
+}
+
+.sub-masonry {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sub-masonry-sizer,
+.sub-masonry-item {
+  width: calc(4.34% - 15px);
+}
+
+.sub-masonry-item {
+  width: calc(33.33% - 2px);
+}
+
+.sub-masonry-item {
+  height: 92px;
+  margin-bottom: 1px;
+}
+
+.sub-masonry-item--width2 {
+  height: 168px;
+  width: calc(50.55% - 5.35px);
+}
+
+.sub-masonry-item > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* <ul class="main-posts-list">
+          <li class="posts-list-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post1.png"
+                width="378"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+          <li class="posts-list-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post2.png"
+                width="378"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+          <li class="posts-list-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post3.png"
+                width="378"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+          <li class="posts-list-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post4.png"
+                width="378"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+          <li class="posts-list-item hi">
+            <div id="subgrid">
+              <div class="subgrid-item--width2">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (10).png" alt="" />
+              </div>
+              <div class="subgrid-item--width2">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (6).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (1).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (2).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (3).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (4).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (5).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (6).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (7).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (8).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (9).png" alt="" />
+              </div>
+            </div>
+          </li>
+          <li class="posts-list-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post6.png"
+                width="366"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+
+          <!-- Hidden -->
+          <li class="posts-list-item hidden-grid-item hidden">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post1.png"
+                width="378"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+          <li class="posts-list-item hidden-grid-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post2.png"
+                width="378"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+          <li class="posts-list-item hidden-grid-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post3.png"
+                width="378"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+          <li class="posts-list-item hidden-grid-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post4.png"
+                width="378"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+          <li class="posts-list-item hidden-grid-item hi">
+            <div id="subgrid">
+              <div class="subgrid-item--width2">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (10).png" alt="" />
+              </div>
+              <div class="subgrid-item--width2">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (6).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (1).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (2).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (3).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (4).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (5).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (6).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (7).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (8).png" alt="" />
+              </div>
+              <div class="subgrid-item">
+                <div class="subgrid-container">
+                  <button class="btn-search">
+                    <img src="img/search.svg" alt="" /></button
+                  ><button class="btn-open">
+                    <img src="img/view.svg" alt="" />
+                  </button>
+                </div>
+                <img src="img/subgrid/img- (9).png" alt="" />
+              </div>
+            </div>
+          </li>
+          <li class="posts-list-item hidden-grid-item">
+            <div class="inner-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <a href="#" class="item-link"
+              ><img
+                src="img/posts/post6.png"
+                width="366"
+                alt=""
+                class="item-img" /><br
+            /></a>
+          </li>
+        </ul> */
+
+/* <ul class="masonry">
+          <li class="masonry-sizer"></li>
+          <li class="masonry-item">
+            <img src="img/posts/post1.png" alt="" class="item-img" />
+          </li>
+          <li class="masonry-item">
+            <img src="img/posts/post3.png" alt="" class="item-img" />
+          </li>
+          <li class="masonry-item">
+            <ul class="sub-masonry">
+              <li class="sub-masonry-sizer"></li>
+              <li class="sub-masonry-item sub-masonry-item--width2">
+                <img src="/img/subgrid/img- (10).png" alt="" />
+              </li>
+              <li class="sub-masonry-item sub-masonry-item--width2">
+                <img src="/img/subgrid/img- (6).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (3).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (4).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (5).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (2).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (7).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (8).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (9).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (1).png" alt="" />
+              </li>
+              <li class="sub-masonry-item">
+                <img src="/img/subgrid/img- (10).png" alt="" />
+              </li>
+            </ul>
+          </li>
+          <li class="masonry-item">
+            <img src="img/posts/post2.png" alt="" class="item-img" />
+          </li>
+          <li class="masonry-item">
+            <img src="img/posts/post6.png" alt="" class="item-img" />
+          </li>
+          <li class="masonry-item">
+            <img src="img/posts/post4.png" alt="" class="item-img" />
+          </li>
+          <li class="masonry-item">
+            <img src="img/posts/post1.png" alt="" class="item-img" />
+          </li>
+        </ul> */
