@@ -308,4 +308,15 @@ $(document).ready(function () {
     percentPosition: true,
     gutter: 1,
   });
+
+  $(".standard-link").click(function (e) {
+    let linkHref = $(this).attr("href");
+
+    $("html, body").animate(
+      {
+        scrollTop: $(linkHref).offset().top,
+      },
+      1500
+    );
+  });
 });
