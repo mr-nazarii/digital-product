@@ -212,6 +212,7 @@ $(window).on("load", function () {
               .next()
               .find("img")
               .addClass("active-employee")
+              .css({ top: "0px" })
               .animate({ top: "-8px" });
 
             break;
@@ -273,6 +274,7 @@ $(window).on("load", function () {
               .prev()
               .find("img")
               .addClass("active-employee")
+              .css({ top: "0px" })
               .animate({ top: "-8px" });
 
             break;
