@@ -340,10 +340,18 @@
 }
 
 .center {
+  position: relative;
   display: flex;
   justify-content: center;
 }
 
+.btnload1.center {
+  height: 210px;
+}
+
+.btnload2.center {
+  height: 210px;
+}
 /* Work */
 
 .work-section {
@@ -383,10 +391,12 @@
 .news-section.container,
 .services.container {
   padding-top: 83px;
+  padding-bottom: 10px;
 }
 
 .work-section > .container {
   padding-top: 96px;
+  padding-bottom: 20px;
 }
 
 .grid-container {
@@ -913,22 +923,22 @@
   justify-content: flex-start;
   align-items: center;
   transition: ease-out 200ms;
-}
-
-.description-img .subgrid-container {
-  display: none;
+  opacity: 0;
+  transition: opacity 300ms;
 }
 
 .description-img:hover .subgrid-container {
-  display: flex;
+  opacity: 1;
 }
 
 .subgrid-item--width2:hover .subgrid-container {
   z-index: 1;
+  opacity: 1;
 }
 
 .subgrid-item:hover .subgrid-container {
   z-index: 1;
+  opacity: 1;
 }
 
 .hidden-grid-item {
@@ -954,484 +964,63 @@
   width: 100%;
 }
 
-/* .sub-masonry {
-  padding: 0;
-  list-style-type: none;
-} */
-/*
-.sub-masonry-sizer,
-.sub-masonry-item {
-  width: calc(4.34% - 15px);
+/* Loading */
+
+.box {
+  position: absolute;
+  top: 28px;
+  width: 150px;
+  height: 150px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  height: 15px;
+  width: 105px;
+  display: flex;
+  position: relative;
 }
 
-.sub-masonry-item {
-  width: calc(33.33% - 2px);
+.img-loading {
+  position: absolute;
 }
-
-.sub-masonry-item {
-  height: 92px;
-  margin-bottom: 1px;
+.cont .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #3ab69d;
+  animation: move 500ms linear 0ms infinite;
+  margin-right: 30px;
 }
-
-.sub-masonry-item--width2 {
-  height: 168px;
-  width: calc(50.55% - 5.35px);
+.cont .circle:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: grow 500ms linear 0ms infinite;
 }
-
-.sub-masonry-item > img {
-  width: 100%;
-  height: 100%;
-} */
-
-/* <ul class="main-posts-list">
-          <li class="posts-list-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post1.png"
-                width="378"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-          <li class="posts-list-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post2.png"
-                width="378"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-          <li class="posts-list-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post3.png"
-                width="378"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-          <li class="posts-list-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post4.png"
-                width="378"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-          <li class="posts-list-item hi">
-            <div id="subgrid">
-              <div class="subgrid-item--width2">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (10).png" alt="" />
-              </div>
-              <div class="subgrid-item--width2">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (6).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (1).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (2).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (3).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (4).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (5).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (6).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (7).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (8).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (9).png" alt="" />
-              </div>
-            </div>
-          </li>
-          <li class="posts-list-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post6.png"
-                width="366"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-
-          <!-- Hidden -->
-          <li class="posts-list-item hidden-grid-item hidden">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post1.png"
-                width="378"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-          <li class="posts-list-item hidden-grid-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post2.png"
-                width="378"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-          <li class="posts-list-item hidden-grid-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post3.png"
-                width="378"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-          <li class="posts-list-item hidden-grid-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post4.png"
-                width="378"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-          <li class="posts-list-item hidden-grid-item hi">
-            <div id="subgrid">
-              <div class="subgrid-item--width2">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (10).png" alt="" />
-              </div>
-              <div class="subgrid-item--width2">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (6).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (1).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (2).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (3).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (4).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (5).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (6).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (7).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (8).png" alt="" />
-              </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (9).png" alt="" />
-              </div>
-            </div>
-          </li>
-          <li class="posts-list-item hidden-grid-item">
-            <div class="inner-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <a href="#" class="item-link"
-              ><img
-                src="img/posts/post6.png"
-                width="366"
-                alt=""
-                class="item-img" /><br
-            /></a>
-          </li>
-        </ul> */
-
-/* <ul class="masonry">
-          <li class="masonry-sizer"></li>
-          <li class="masonry-item">
-            <img src="img/posts/post1.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item">
-            <img src="img/posts/post3.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item">
-            <ul class="sub-masonry">
-              <li class="sub-masonry-sizer"></li>
-              <li class="sub-masonry-item sub-masonry-item--width2">
-                <img src="/img/subgrid/img- (10).png" alt="" />
-              </li>
-              <li class="sub-masonry-item sub-masonry-item--width2">
-                <img src="/img/subgrid/img- (6).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (3).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (4).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (5).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (2).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (7).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (8).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (9).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (1).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (10).png" alt="" />
-              </li>
-            </ul>
-          </li>
-          <li class="masonry-item">
-            <img src="img/posts/post2.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item">
-            <img src="img/posts/post6.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item">
-            <img src="img/posts/post4.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item">
-            <img src="img/posts/post1.png" alt="" class="item-img" />
-          </li>
-        </ul> */
+.cont .circle:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 0;
+  animation: grow 500ms linear 0s infinite reverse;
+}
+@keyframes grow {
+  from {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(45px);
+  }
+}

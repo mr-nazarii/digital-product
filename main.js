@@ -56,19 +56,29 @@ $(window).on("load", function () {
   });
 
   $(".load-more1").click(function () {
-    $(".load-elements").hide();
-    $(".load-elements").slideDown(1000);
-    $(".load-elements").fadeIn(500);
+    $(".load-more1").hide();
+    $(".box").css({ display: "flex" });
+    setTimeout(function () {
+      $(".load-more1").show();
+      $(".box").css({ display: "none" });
 
-    $(".load-elements").show().removeClass("load-elements");
-    $(".load-more1").click(function () {
-      $(".load-elements-more").hide();
-      $(".load-elements-more").slideDown(1000);
-      $(".load-elements-more").fadeIn(500);
+      $(".load-elements").hide();
+      $(".load-elements").slideDown(1000);
+      $(".load-elements").fadeIn(500);
 
-      $(".load-more1").remove();
-      $(".load-elements-more").show().removeClass("load-elements-more");
-    });
+      $(".load-elements").show().removeClass("load-elements");
+      $(".load-more1").click(function () {
+        setTimeout(function () {
+          $(".load-elements-more").hide();
+          $(".load-elements-more").slideDown(1000);
+          $(".load-elements-more").fadeIn(500);
+
+          $(".load-more1").remove();
+          $(".load-elements-more").show().removeClass("load-elements-more");
+          $(".btnload1").remove();
+        }, 2000);
+      });
+    }, 2000);
   });
 
   $(".section-works").on("click", "button", function (e) {
@@ -305,34 +315,40 @@ $(document).ready(function () {
   });
 
   $(".load-more2").click(function () {
-    var $items = $(
-      `<li class="masonry-item description-img ">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(1).png" alt="" class="item-img" />
-          </li>`
-    );
-
-    for (let i = 0; i < 13; i++) {
-      $items = $(
+    $(".load-more2").hide();
+    $(".box").last().css({ display: "flex" });
+    setTimeout(function () {
+      let $items = $(
         `<li class="masonry-item description-img ">
-        <div class="subgrid-container">
-          <button class="btn-search">
-            <img src="img/search.svg" alt="" /></button
-          ><button class="btn-open">
-            <img src="img/view.svg" alt="" />
-          </button>
-        </div>
-        <img src="img/posts/new-post(${i}).png" alt="" class="item-img" />
-      </li>`
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="img/view.svg" alt="" />
+                </button>
+              </div>
+              <img src="img/posts/new-post(1).png" alt="" class="item-img" />
+            </li>`
       );
-      $grid.append($items).masonry("appended", $items);
-    }
-    $(".load-more2").remove();
+
+      for (let i = 1; i < 13; i++) {
+        $items = $(
+          `<li class="masonry-item description-img ">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="img/posts/new-post(${i}).png" alt="" class="item-img" />
+        </li>`
+        );
+        $grid.append($items).masonry("appended", $items);
+      }
+      $(".load-more2").remove();
+      $(".btnload2").remove();
+      $(".box").last().css({ display: "none" });
+    }, 2000);
   });
 });
