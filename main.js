@@ -283,30 +283,14 @@ $(window).on("load", function () {
       }
     }
   });
-
-  $(".load-more2").click(function () {
-    $(".hidden-grid-item").removeClass();
-    $(".main-posts-list").css("height", "1580px").slideDown(1000);
-
-    // $(".load-elements").slideDown(1000);
-    // $(".load-elements").fadeIn(500);
-    $(".load-more2").remove();
-  });
 });
 
 $(document).ready(function () {
-  $(".masonry").masonry({
+  let $grid = $(".masonry").masonry({
     itemSelector: ".masonry-item",
     columnWidth: ".masonry-sizer",
     percentPosition: true,
     gutter: 13,
-  });
-
-  $(".sub-masonry").masonry({
-    itemSelector: ".sub-masonry-item",
-    columnWidth: ".sub-masonry-sizer",
-    percentPosition: true,
-    gutter: 1,
   });
 
   $(".standard-link").click(function (e) {
@@ -318,5 +302,37 @@ $(document).ready(function () {
       },
       1500
     );
+  });
+
+  $(".load-more2").click(function () {
+    var $items = $(
+      `<li class="masonry-item description-img ">
+            <div class="subgrid-container">
+              <button class="btn-search">
+                <img src="img/search.svg" alt="" /></button
+              ><button class="btn-open">
+                <img src="img/view.svg" alt="" />
+              </button>
+            </div>
+            <img src="img/posts/new-post(1).png" alt="" class="item-img" />
+          </li>`
+    );
+
+    for (let i = 0; i < 13; i++) {
+      $items = $(
+        `<li class="masonry-item description-img ">
+        <div class="subgrid-container">
+          <button class="btn-search">
+            <img src="img/search.svg" alt="" /></button
+          ><button class="btn-open">
+            <img src="img/view.svg" alt="" />
+          </button>
+        </div>
+        <img src="img/posts/new-post(${i}).png" alt="" class="item-img" />
+      </li>`
+      );
+      $grid.append($items).masonry("appended", $items);
+    }
+    $(".load-more2").remove();
   });
 });
