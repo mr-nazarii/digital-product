@@ -1087,3 +1087,19 @@
 .content h3 {
   color: #96a2a7;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3b3b3b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18cfab;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #14b9d5;
+}
