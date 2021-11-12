@@ -367,3 +367,20 @@ btn.on("click", function (e) {
   e.preventDefault();
   $("html, body").animate({ scrollTop: 0 }, 1000);
 });
+
+const menuBtn = document.querySelector(".menu-btn");
+const content = document.getElementById("content");
+let menuOpen = false;
+menuBtn.addEventListener("click", () => {
+  if (!menuOpen) {
+    menuBtn.classList.add("open");
+    content.style.cssText = "display: inline-block";
+
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove("open");
+    content.style.cssText = "display: none";
+
+    menuOpen = false;
+  }
+});
