@@ -1,1604 +1,1578 @@
 <!DOCTYPE html>
-<html lang="en" class="no">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
-
-    <link rel="stylesheet" href="css/stylesheet.css" />
     <title>The Ham</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="dist/css/styles.min.css" />
+    <link rel="shortcut icon" href="dist/img/logo.png" type="image/x-icon" />
   </head>
-  <body class="page-body">
+  <body class="page__body">
     <header class="header">
-      <nav class="navbar">
-        <ul class="ul container">
-          <li class="relative">
-            <a href="#" class="logo ls special"
-              ><img src="img/Polygon 1 1.svg" alt="#" class="icon" />
-              <p class="part-off-logo">H</p>
-              <p class="margin-off">
-                the<span class="special-green">Ham</span>
-              </p></a
+  <nav class="navbar">
+    <ul class="ul container">
+      <li>
+        <a href="#" class="logo ls special"
+          ><div class="navbar-inner">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="68"
+              height="78"
+              fill="#18cfab"
+              class="bi bi-hexagon-fill icon"
+              viewBox="0 0 16 16"
             >
+              <path
+                fill-rule="#18cfab"
+                d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"
+              />
+            </svg>
+            <p class="part-off-logo">H</p>
+          </div>
+
+          <p class="margin-off">the<span class="special-green">Ham</span></p></a
+        >
+      </li>
+      <li>
+        <ul class="links">
+          <li class="list-items">
+            <a href="#home" class="ls standard-link">Home</a>
           </li>
-          <li>
-            <ul class="links">
-              <li class="list-items">
-                <a href="#home" class="ls standard-link">Home</a>
-              </li>
-              <li class="list-items">
-                <a href="#about" class="ls standard-link">About</a>
-              </li>
-              <li class="list-items">
-                <a href="#blog" class="ls standard-link">Blog</a>
-              </li>
-              <li class="list-items">
-                <a href="#skills" class="ls standard-link">Skills </a>
-              </li>
-              <li class="list-items">
-                <a href="#servises" class="ls standard-link">Service</a>
-              </li>
-              <li class="list-items">
-                <a href="#work" class="ls standard-link">Work</a>
-              </li>
-              <li class="list-items">
-                <a href="#testimonial" class="ls standard-link">Testimonial</a>
-              </li>
-              <button class="list-items">
-                <a href="#">
-                  <img src="img/Search icon 1.svg" alt="#" />
-                </a>
-              </button>
-              <li class="list-hamburger">
-                <div class="menu-btn">
-                  <div class="menu-btn__burger burger"></div>
-                  <ul class="burger__content content" id="content">
-                    <li class="content__item"><a href="#home"class=" standard-link" >Home</a></li>
-                    <li class="content__item"><a href="#about" class=" standard-link">About</a></li>
-                    <li class="content__item"><a href="#blog" class=" standard-link">Blog</a></li>
-                    <li class="content__item"><a href="#skills" class=" standard-link">Skills</a></li>
-                    <li class="content__item"><a href="#servises" class=" standard-link">Service</a></li>
-                    <li class="content__item"><a href="#work" class=" standard-link">Work</a></li>
-                    <li class="content__item"><a href="#testimonial" class=" standard-link">Testimonial</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+          <li class="list-items">
+            <a href="#about" class="ls standard-link">About</a>
+          </li>
+          <li class="list-items">
+            <a href="#blog" class="ls standard-link">Blog</a>
+          </li>
+          <li class="list-items">
+            <a href="#skills" class="ls standard-link">Skills </a>
+          </li>
+          <li class="list-items">
+            <a href="#servises" class="ls standard-link">Service</a>
+          </li>
+          <li class="list-items">
+            <a href="#work" class="ls standard-link">Work</a>
+          </li>
+          <li class="list-items">
+            <a href="#testimonial" class="ls standard-link">Testimonial</a>
+          </li>
+          <button class="list-items">
+            <a href="#" class="ls">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search-bolder"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </a>
+          </button>
+          <li class="list-hamburger">
+            <div class="menu-btn">
+              <div class="menu-btn__burger burger"></div>
+              <ul class="burger__content content" id="content">
+                <li class="content__item">
+                  <a href="#home" class="standard-link">Home</a>
+                </li>
+                <li class="content__item">
+                  <a href="#about" class="standard-link">About</a>
+                </li>
+                <li class="content__item">
+                  <a href="#blog" class="standard-link">Blog</a>
+                </li>
+                <li class="content__item">
+                  <a href="#skills" class="standard-link">Skills</a>
+                </li>
+                <li class="content__item">
+                  <a href="#servises" class="standard-link">Service</a>
+                </li>
+                <li class="content__item">
+                  <a href="#work" class="standard-link">Work</a>
+                </li>
+                <li class="content__item">
+                  <a href="#testimonial" class="standard-link">Testimonial</a>
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
-      </nav>
-      <!-- Header -->
-      <span id="button"></span>
+      </li>
+    </ul>
+  </nav>
+  <!-- Header -->
+  <span id="button"></span>
 
-      <div id="home" class="slogan container">
-        <h1 class="slogan-uppertitle">
-          The Ham is <span class="special-green">Wordpress theme</span>
-        </h1>
+  <div id="home" class="slogan container">
+    <h1 class="slogan-uppertitle">
+      The Ham is <span class="special-green">Wordpress theme</span>
+    </h1>
 
-        <h2 class="slogan-title">we are creative</h2>
-        <h3 class="slogan-subtitle">
-          Just Buy And Enjoy These Awesome Features
-        </h3>
-        <div class="buttons">
-          <a href="#" class="btn btn1">EXPLORE NOW</a
-          ><a href="#" class="btn btn2">purchase now</a>
-        </div>
-      </div>
-    </header>
-    <!-- Servises p1 -->
-    <section id="about" class="page-servises">
-      <div class="servises-our-best">
-        <img
-          src="img/graphic-design/Combined shape 629.svg"
-          alt="#"
-          class="img-servises"
-          width="61px"
-        />
-        <p class="servises-p p-dark">Different theme option</p>
-      </div>
-      <div class="servises-our-best green-sr">
-        <img
-          src="img/graphic-design/Combined shape 1172.svg"
-          alt="#"
-          class="img-servises"
-          width="96px"
-        />
-        <p class="servises-p p-light">Different theme option</p>
-      </div>
-      <div class="servises-our-best">
-        <img
-          src="img/graphic-design/Combined shape 1179.svg"
-          alt="#"
-          class="img-servises"
-          width="62px"
-        />
-        <p class="servises-p p-dark">Different theme option</p>
-      </div>
-      <div class="servises-our-best green-sr">
-        <img
-          src="img/graphic-design/Combined shape 1102.svg"
-          alt="#"
-          class="img-servises"
-          width="102px"
-        />
-        <p class="servises-p p-light">Different theme option</p>
-      </div>
-    </section>
-    <!-- Servises p2 -->
+    <h2 class="slogan-title">we are creative</h2>
+    <h3 class="slogan-subtitle">Just Buy And Enjoy These Awesome Features</h3>
+    <div class="buttons">
+      <a href="#" class="btn btn1">EXPLORE NOW</a
+      ><a href="#" class="btn btn2">purchase now</a>
+    </div>
+  </div>
+</header>
+ <section id="about" class="page-servises">
+  <div class="servises-our-best">
+    <img
+      src="dist/img/graphic-design/Combined shape 629.svg"
+      alt="#"
+      class="img-servises"
+      width="61px"
+    />
+    <p class="servises-p p-dark">Different theme option</p>
+  </div>
+  <div class="servises-our-best green-sr">
+    <img
+      src="dist/img/graphic-design/Combined shape 1172.svg"
+      alt="#"
+      class="img-servises"
+      width="96px"
+    />
+    <p class="servises-p p-light">Different theme option</p>
+  </div>
+  <div class="servises-our-best">
+    <img
+      src="dist/img/graphic-design/Combined shape 1179.svg"
+      alt="#"
+      class="img-servises"
+      width="62px"
+    />
+    <p class="servises-p p-dark">Different theme option</p>
+  </div>
+  <div class="servises-our-best green-sr">
+    <img
+      src="dist/img/graphic-design/Combined shape 1102.svg"
+      alt="#"
+      class="img-servises"
+      width="102px"
+    />
+    <p class="servises-p p-light">Different theme option</p>
+  </div>
+</section>
+
     <section id="servises" class="services container">
-      <h2 class="section-title">Our Services</h2>
-      <ul class="section-servises">
-        <li class="section-service-item">
-          <button class="active-button section-button">Web Design</button>
-        </li>
-        <li class="section-service-item">
-          <button class="standard-color section-button">Graphic Design</button>
-        </li>
-        <li class="section-service-item">
-          <button class="standard-color section-button">Online Support</button>
-        </li>
-        <li class="section-service-item">
-          <button class="standard-color section-button">App Design</button>
-        </li>
-        <li class="section-service-item">
-          <button class="standard-color section-button">Motion Design</button>
-        </li>
-        <li class="section-service-item">
-          <button class="standard-color section-button">Seo Service</button>
-        </li>
-      </ul>
-      <div class="contents-servises">
-        <img
-          class="img-description active-item"
-          src="img/web-design/web-design3.jpg"
-          alt=""
-          width="192"
-          height="139"
-          data-category="Web Design"
-        />
-        <img
-          class="img-description"
-          src="img/web-design/web-design4.jpg"
-          alt=""
-          width="192"
-          height="139"
-          data-category="Graphic Design"
-        />
-        <img
-          class="img-description"
-          src="img/web-design/web-design5.jpg"
-          alt=""
-          width="192"
-          height="139"
-          data-category="Online Support"
-        />
-        <img
-          class="img-description"
-          src="img/web-design/web-design6.jpg"
-          alt=""
-          width="192"
-          height="139"
-          data-category="App Design"
-        /><img
-          class="img-description"
-          src="img/web-design/web-design1.jpg"
-          alt=""
-          width="192"
-          height="139"
-          data-category="Motion Design"
-        /><img
-          class="img-description"
-          src="img/web-design/web-design2.jpg"
-          alt=""
-          width="192"
-          height="139"
-          data-category="Seo Service"
-        />
+  <h2 class="section-title">Our Services</h2>
+  <ul class="section-servises">
+    <li class="section-service-item">
+      <button class="active-button section-button">Web Design</button>
+    </li>
+    <li class="section-service-item">
+      <button class="standard-color section-button">Graphic Design</button>
+    </li>
+    <li class="section-service-item">
+      <button class="standard-color section-button">Online Support</button>
+    </li>
+    <li class="section-service-item">
+      <button class="standard-color section-button">App Design</button>
+    </li>
+    <li class="section-service-item">
+      <button class="standard-color section-button">Motion Design</button>
+    </li>
+    <li class="section-service-item">
+      <button class="standard-color section-button">Seo Service</button>
+    </li>
+  </ul>
+  <div class="contents-servises">
+    <img
+      class="img-description active-item"
+      src="dist/img/web-design/web-design3.jpg"
+      alt=""
+      width="192"
+      height="139"
+      data-category="Web Design"
+    />
+    <img
+      class="img-description"
+      src="dist/img/web-design/web-design4.jpg"
+      alt=""
+      width="192"
+      height="139"
+      data-category="Graphic Design"
+    />
+    <img
+      class="img-description"
+      src="dist/img/web-design/web-design5.jpg"
+      alt=""
+      width="192"
+      height="139"
+      data-category="Online Support"
+    />
+    <img
+      class="img-description"
+      src="dist/img/web-design/web-design6.jpg"
+      alt=""
+      width="192"
+      height="139"
+      data-category="App Design"
+    /><img
+      class="img-description"
+      src="dist/img/web-design/web-design1.jpg"
+      alt=""
+      width="192"
+      height="139"
+      data-category="Motion Design"
+    /><img
+      class="img-description"
+      src="dist/img/web-design/web-design2.jpg"
+      alt=""
+      width="192"
+      height="139"
+      data-category="Seo Service"
+    />
 
-        <p class="description active-item" data-category="Web Design">
-          We are committed to assisting businesses in efficiently communicating
-          through a variety of graphic and digital media. We can collaborate on
-          a single project .
-        </p>
-        <p class="description" data-category="Graphic Design">
-          Our innovative approach and procedures are tailored to offer you with
-          the finest advice and results that are in line with your company's
-          demands and objectives.
-        </p>
-        <p class="description" data-category="Online Support">
-          Every company has its own set of demands and expectations. We take the
-          time to get to know you and your company, and then we work with you to
-          help you develop and achieve your objectives.
-        </p>
-        <p class="description" data-category="App Design">
-          We've established procedures to guarantee that the project runs
-          smoothly and efficiently. We'll work closely with you throughout the
-          process to ensure that your demands are satisfied.
-        </p>
-        <p class="description" data-category="Motion Design">
-          We can offer multi-disciplinary solutions and a variety of design
-          services to ensure that your brand is consistent throughout printed
-          marketing assets and digital platforms.
-        </p>
-        <p class="description" data-category="Seo Service">
-          Every company has its own set of demands and expectations. We take the
-          time to get to know you and your company, and then we work with you to
-          help you develop and achieve your objectives.
-        </p>
-      </div>
-    </section>
-    <!-- Buy Product -->
+    <p class="description active-item" data-category="Web Design">
+      We are committed to assisting businesses in efficiently communicating
+      through a variety of graphic and digital media. We can collaborate on a
+      single project .
+    </p>
+    <p class="description" data-category="Graphic Design">
+      Our innovative approach and procedures are tailored to offer you with the
+      finest advice and results that are in line with your company's demands and
+      objectives.
+    </p>
+    <p class="description" data-category="Online Support">
+      Every company has its own set of demands and expectations. We take the
+      time to get to know you and your company, and then we work with you to
+      help you develop and achieve your objectives.
+    </p>
+    <p class="description" data-category="App Design">
+      We've established procedures to guarantee that the project runs smoothly
+      and efficiently. We'll work closely with you throughout the process to
+      ensure that your demands are satisfied.
+    </p>
+    <p class="description" data-category="Motion Design">
+      We can offer multi-disciplinary solutions and a variety of design services
+      to ensure that your brand is consistent throughout printed marketing
+      assets and digital platforms.
+    </p>
+    <p class="description" data-category="Seo Service">
+      Every company has its own set of demands and expectations. We take the
+      time to get to know you and your company, and then we work with you to
+      help you develop and achieve your objectives.
+    </p>
+  </div>
+</section>
+
     <section class="purchase-section">
-      <div class="container">
-        <h3 class="purchase-slogan special-green">
-          Everything is ready. just buy and install now
-        </h3>
-        <p class="purchase-subtitle">
-          Smooth reliable, responsive ready, perfect portfolio, unique blog
-          layout and many many options for you
-        </p>
-        <div class="center">
-          <a href="#" class="btn btn1">purchase now</a>
+  <div class="container">
+    <h3 class="purchase-slogan special-green">
+      Everything is ready. just buy and install now
+    </h3>
+    <p class="purchase-subtitle">
+      Smooth reliable, responsive ready, perfect portfolio, unique blog layout
+      and many many options for you
+    </p>
+    <div class="center">
+      <a href="#" class="btn btn1">purchase now</a>
+    </div>
+  </div>
+</section>
+<section id="work" class="work-section">
+  <div class="container">
+    <h2 class="section-title">Our Amazing Work</h2>
+    <ul class="section-works">
+      <li class="section-work-item">
+        <button class="section-link">All</button>
+      </li>
+      <li class="section-work-item">
+        <button class="section-link">Graphic Design</button>
+      </li>
+      <li class="section-work-item">
+        <button class="section-link">Web Design</button>
+      </li>
+      <li class="section-work-item">
+        <button class="section-link">Landing Pages</button>
+      </li>
+      <li class="section-work-item">
+        <button class="section-link">Wordpress</button>
+      </li>
+    </ul>
+
+    <ul class="grid-container">
+      <li class="grid-item">
+        <img
+          src="dist/img/works/graphic-design4.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 24.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative websites</p>
+          <p class="item-desc">Wordpress</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 25.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Awsome and creative</p>
+          <p class="item-desc">Landing Pages</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 26.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Heart inspired</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 27.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">things we love</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 28.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Adore the art</p>
+          <p class="item-desc">Landing Pages</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 29.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 30.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">master and create</p>
+          <p class="item-desc">Wordpress</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 31.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">graphic life</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 32.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Miracle</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 33.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Loved by all</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item">
+        <img
+          src="dist/img/works/Layer 34.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">smart design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <!-- Hidden 12 -->
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/photo.png"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design1.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative websites</p>
+          <p class="item-desc">Wordpress</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design2.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Awsome and creative</p>
+          <p class="item-desc">Landing Pages</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design3.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Heart inspired</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design5.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">things we love</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design6.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Adore the art</p>
+          <p class="item-desc">Landing Pages</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design7.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design8.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">master and create</p>
+          <p class="item-desc">Wordpress</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design9.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">graphic life</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design10.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Miracle</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design11.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Loved by all</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements">
+        <img
+          src="dist/img/graphic-design/graphic-design12.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">smart design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <!-- 12 More -->
+
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image1.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image2.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative websites</p>
+          <p class="item-desc">Wordpress</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image3.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Awsome and creative</p>
+          <p class="item-desc">Landing Pages</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image4.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Heart inspired</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image5.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">things we love</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image6.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Adore the art</p>
+          <p class="item-desc">Landing Pages</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image7.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">creative design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image8.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">master and create</p>
+          <p class="item-desc">Wordpress</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image9.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">graphic life</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image10.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Miracle</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image11.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">Loved by all</p>
+          <p class="item-desc">Graphic Design</p>
+        </div>
+      </li>
+      <li class="grid-item load-elements-more">
+        <img
+          src="dist/img/graphic-design/new-image12.jpg"
+          alt=""
+          class="item-img"
+          width="285"
+          height="211"
+        />
+        <div class="inner-item">
+          <a href="#" class="link1 link"
+            ><img src="dist/img/link.svg" alt="" width="14" height="14" /></a
+          ><a href="#" class="link2 link"
+            ><img src="dist/img/sqare.svg" alt="" width="14" height="14"
+          /></a>
+          <p class="item-title">smart design</p>
+          <p class="item-desc">Web Design</p>
+        </div>
+      </li>
+    </ul>
+    <div id="loader" class="btnload1 center">
+      <button class="load-more1 btn1">Load More</button>
+      <div class="box">
+        <img src="dist/img/icon.png" alt="" class="img-loading" />
+        <div class="cont">
+          <span class="circle"></span>
+          <span class="circle"></span>
+          <span class="circle"></span>
+          <span class="circle"></span>
         </div>
       </div>
-    </section>
-    <!-- Work -->
-    <section id="work" class="work-section">
-      <div class="container">
-        <h2 class="section-title">Our Amazing Work</h2>
-        <ul class="section-works">
-          <li class="section-work-item">
-            <button class="section-link">All</button>
-          </li>
-          <li class="section-work-item">
-            <button class="section-link">Graphic Design</button>
-          </li>
-          <li class="section-work-item">
-            <button class="section-link">Web Design</button>
-          </li>
-          <li class="section-work-item">
-            <button class="section-link">Landing Pages</button>
-          </li>
-          <li class="section-work-item">
-            <button class="section-link">Wordpress</button>
-          </li>
-        </ul>
+    </div>
+  </div>
+</section>
 
-        <ul class="grid-container">
-          <li class="grid-item">
-            <img
-              src="img/works/graphic-design4.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 24.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative websites</p>
-              <p class="item-desc">Wordpress</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 25.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Awsome and creative</p>
-              <p class="item-desc">Landing Pages</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 26.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Heart inspired</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 27.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">things we love</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 28.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Adore the art</p>
-              <p class="item-desc">Landing Pages</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 29.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 30.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">master and create</p>
-              <p class="item-desc">Wordpress</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 31.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">graphic life</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 32.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Miracle</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 33.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Loved by all</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item">
-            <img
-              src="img/works/Layer 34.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">smart design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <!-- Hidden 12 -->
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/photo.png"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design1.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative websites</p>
-              <p class="item-desc">Wordpress</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design2.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Awsome and creative</p>
-              <p class="item-desc">Landing Pages</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design3.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Heart inspired</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design5.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">things we love</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design6.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Adore the art</p>
-              <p class="item-desc">Landing Pages</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design7.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design8.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">master and create</p>
-              <p class="item-desc">Wordpress</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design9.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">graphic life</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design10.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Miracle</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design11.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Loved by all</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements">
-            <img
-              src="img/graphic-design/graphic-design12.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">smart design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <!-- 12 More -->
-
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image1.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image2.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative websites</p>
-              <p class="item-desc">Wordpress</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image3.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Awsome and creative</p>
-              <p class="item-desc">Landing Pages</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image4.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Heart inspired</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image5.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">things we love</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image6.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Adore the art</p>
-              <p class="item-desc">Landing Pages</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image7.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">creative design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image8.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">master and create</p>
-              <p class="item-desc">Wordpress</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image9.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">graphic life</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image10.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Miracle</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image11.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">Loved by all</p>
-              <p class="item-desc">Graphic Design</p>
-            </div>
-          </li>
-          <li class="grid-item load-elements-more">
-            <img
-              src="img/graphic-design/new-image12.jpg"
-              alt=""
-              class="item-img"
-              width="285"
-              height="211"
-            />
-            <div class="inner-item">
-              <a href="#" class="link1 link"
-                ><img src="img/link.svg" alt="" width="14" height="14" /></a
-              ><a href="#" class="link2 link"
-                ><img src="img/sqare.svg" alt="" width="14" height="14"
-              /></a>
-              <p class="item-title">smart design</p>
-              <p class="item-desc">Web Design</p>
-            </div>
-          </li>
-        </ul>
-        <div id="loader" class="btnload1 center">
-          <button class="load-more1 btn1">Load More</button>
-          <div class="box">
-            <img src="img/icon.png" alt="" class="img-loading" />
-            <div class="cont">
-              <span class="circle"></span>
-              <span class="circle"></span>
-              <span class="circle"></span>
-              <span class="circle"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- News -->
     <section id="blog" class="news-section container">
-      <h2 class="section-title">Breaking News</h2>
-      <ul class="grid-news-container">
-        <li class="grid-news-item">
-          <a href="#" class="news-link">
-            <img
-              src="img/graphic-design/Layer 47.png"
-              alt=""
-              class="news-image"
-              width="263"
-              height="208"
-            />
-            <p class="date">12<br />Feb</p>
-            <p class="news-title">Amazing Blog Post</p>
-            <p class="author">By admin</p>
-            <p class="comments">2 comment</p>
-          </a>
+  <h2 class="section-title">Breaking News</h2>
+  <ul class="grid-news-container">
+    <li class="grid-news-item">
+      <a href="#" class="news-link">
+        <img
+          src="dist/img/graphic-design/Layer 47.png"
+          alt=""
+          class="news-image"
+          width="263"
+          height="208"
+        />
+        <p class="date">12<br />Feb</p>
+        <p class="news-title">Amazing Blog Post</p>
+        <p class="author">By admin</p>
+        <p class="comments">2 comment</p>
+      </a>
+    </li>
+    <li class="grid-news-item">
+      <a href="#" class="news-link">
+        <img
+          src="dist/img/graphic-design/Layer 50.png"
+          alt=""
+          class="news-image"
+          width="263"
+          height="208"
+        />
+        <p class="date">12<br />Feb</p>
+        <p class="news-title">Amazing Blog Post</p>
+        <p class="author">By admin</p>
+        <p class="comments">2 comment</p>
+      </a>
+    </li>
+    <li class="grid-news-item">
+      <a href="#" class="news-link">
+        <img
+          src="dist/img/graphic-design/Layer 51.png"
+          alt=""
+          class="news-image"
+          width="263"
+          height="208"
+        />
+        <p class="date">12<br />Feb</p>
+        <p class="news-title">Amazing Blog Post</p>
+        <p class="author">By admin</p>
+        <p class="comments">2 comment</p>
+      </a>
+    </li>
+    <li class="grid-news-item">
+      <a href="#" class="news-link">
+        <img
+          src="dist/img/graphic-design/Layer 52.png"
+          alt=""
+          class="news-image"
+          width="263"
+          height="208"
+        />
+        <p class="date">12<br />Feb</p>
+        <p class="news-title">Amazing Blog Post</p>
+        <p class="author">By admin</p>
+        <p class="comments">2 comment</p>
+      </a>
+    </li>
+    <li class="grid-news-item">
+      <a href="#" class="news-link">
+        <img
+          src="dist/img/graphic-design/Layer 53.png"
+          alt=""
+          class="news-image"
+          width="263"
+          height="208"
+        />
+        <p class="date">12<br />Feb</p>
+        <p class="news-title">Amazing Blog Post</p>
+        <p class="author">By admin</p>
+        <p class="comments">2 comment</p>
+      </a>
+    </li>
+    <li class="grid-news-item">
+      <a href="#" class="news-link">
+        <img
+          src="dist/img/graphic-design/Layer 54.png"
+          alt=""
+          class="news-image"
+          width="263"
+          height="208"
+        />
+        <p class="date">12<br />Feb</p>
+        <p class="news-title">Amazing Blog Post</p>
+        <p class="author">By admin</p>
+        <p class="comments">2 comment</p>
+      </a>
+    </li>
+    <li class="grid-news-item">
+      <a href="#" class="news-link">
+        <img
+          src="dist/img/graphic-design/Layer 55.png"
+          alt=""
+          class="news-image"
+          width="263"
+          height="208"
+        />
+        <p class="date">12<br />Feb</p>
+        <p class="news-title">Amazing Blog Post</p>
+        <p class="author">By admin</p>
+        <p class="comments">2 comment</p>
+      </a>
+    </li>
+    <li class="grid-news-item">
+      <a href="#" class="news-link">
+        <img
+          src="dist/img/graphic-design/Layer 56.png"
+          alt=""
+          class="news-image"
+          width="263"
+          height="208"
+        />
+        <p class="date">12<br />Feb</p>
+        <p class="news-title">Amazing Blog Post</p>
+        <p class="author">By admin</p>
+        <p class="comments">2 comment</p>
+      </a>
+    </li>
+  </ul>
+</section>
+<section id="testimonial" class="section-feedback">
+  <div class="container">
+    <h2 class="section-title">What People Say About theHam</h2>
+    <div class="search">
+      <div class="center-dynamic">
+        <img
+          class="svg-employee"
+          src="dist/img/graphic-design/shapes.svg"
+          alt=""
+          width="44"
+          height="30"
+        />
+        <!-- Paragraph -->
+        <p class="dynamic-p" id="center-p" data-employee="employee-1">
+          The Ham is both attractive and highly adaptable. I didn't even need
+          training.
+        </p>
+        <p class="dynamic-p hidden-employee" data-employee="employee-2">
+          "If you want real marketing that works and effective implementation -
+          the Ham's got you covered.
+        </p>
+        <p class="dynamic-p hidden-employee" data-employee="employee-3">
+          "It fits our needs perfectly. This is simply unbelievable! Dude, your
+          stuff is the bomb!"
+        </p>
+        <p class="dynamic-p hidden-employee" data-employee="employee-4">
+          "Best. Product. Ever! It fits our needs perfectly. Thank You! I would
+          be lost without the Ham.""
+        </p>
+        <!--  Name -->
+
+        <p class="dynamic-name" data-employee="employee-1">Nova Linbah</p>
+
+        <p class="dynamic-name hidden-employee" data-employee="employee-2">
+          Gilbert Stein
+        </p>
+        <p class="dynamic-name hidden-employee" data-employee="employee-3">
+          Valentino Gorecio
+        </p>
+        <p class="dynamic-name hidden-employee" data-employee="employee-4">
+          Adam Blue
+        </p>
+
+        <!--  Job Title -->
+
+        <p class="dynamic-job-title" data-employee="employee-1">UX Designer</p>
+
+        <p class="dynamic-job-title hidden-employee" data-employee="employee-2">
+          Customer
+        </p>
+
+        <p class="dynamic-job-title hidden-employee" data-employee="employee-3">
+          Designer
+        </p>
+
+        <p class="dynamic-job-title hidden-employee" data-employee="employee-4">
+          Manager
+        </p>
+        <div class="wrapper">
+          <img
+            src="dist/img/employees/employee-1.jpg"
+            alt=""
+            id="modify"
+            class="employee"
+            width="166"
+            height="166"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="center-dynamic">
+      <ul class="employee-bar">
+        <li class="next-btn">
+          <button class="btn-next left">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-left svg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+              />
+            </svg>
+          </button>
         </li>
-        <li class="grid-news-item">
-          <a href="#" class="news-link">
-            <img
-              src="img/graphic-design/Layer 50.png"
-              alt=""
-              class="news-image"
-              width="263"
-              height="208"
-            />
-            <p class="date">12<br />Feb</p>
-            <p class="news-title">Amazing Blog Post</p>
-            <p class="author">By admin</p>
-            <p class="comments">2 comment</p>
-          </a>
+        <li class="employer">
+          <button class="btn-employee" data-employee="employee-1"></button>
+          <img
+            src="dist/img/employees/employee-1.jpg"
+            alt=""
+            class="employee active-employee"
+            width="60"
+            height="59"
+          />
         </li>
-        <li class="grid-news-item">
-          <a href="#" class="news-link">
-            <img
-              src="img/graphic-design/Layer 51.png"
-              alt=""
-              class="news-image"
-              width="263"
-              height="208"
-            />
-            <p class="date">12<br />Feb</p>
-            <p class="news-title">Amazing Blog Post</p>
-            <p class="author">By admin</p>
-            <p class="comments">2 comment</p>
-          </a>
+        <li class="employer">
+          <button class="btn-employee" data-employee="employee-2"></button>
+
+          <img
+            src="dist/img/employees/employee-2.jpg"
+            alt=""
+            class="employee"
+            width="60"
+            height="59"
+          />
         </li>
-        <li class="grid-news-item">
-          <a href="#" class="news-link">
-            <img
-              src="img/graphic-design/Layer 52.png"
-              alt=""
-              class="news-image"
-              width="263"
-              height="208"
-            />
-            <p class="date">12<br />Feb</p>
-            <p class="news-title">Amazing Blog Post</p>
-            <p class="author">By admin</p>
-            <p class="comments">2 comment</p>
-          </a>
+        <li class="employer">
+          <button class="btn-employee" data-employee="employee-3"></button>
+
+          <img
+            src="dist/img/employees/employee-3.jpg"
+            alt=""
+            class="employee"
+            width="60"
+            height="59"
+          />
         </li>
-        <li class="grid-news-item">
-          <a href="#" class="news-link">
-            <img
-              src="img/graphic-design/Layer 53.png"
-              alt=""
-              class="news-image"
-              width="263"
-              height="208"
-            />
-            <p class="date">12<br />Feb</p>
-            <p class="news-title">Amazing Blog Post</p>
-            <p class="author">By admin</p>
-            <p class="comments">2 comment</p>
-          </a>
+        <li class="employer">
+          <button class="btn-employee" data-employee="employee-4"></button>
+
+          <img
+            src="dist/img/employees/employee-4.jpg"
+            alt=""
+            class="employee"
+            width="60"
+            height="59"
+          />
         </li>
-        <li class="grid-news-item">
-          <a href="#" class="news-link">
-            <img
-              src="img/graphic-design/Layer 54.png"
-              alt=""
-              class="news-image"
-              width="263"
-              height="208"
-            />
-            <p class="date">12<br />Feb</p>
-            <p class="news-title">Amazing Blog Post</p>
-            <p class="author">By admin</p>
-            <p class="comments">2 comment</p>
-          </a>
-        </li>
-        <li class="grid-news-item">
-          <a href="#" class="news-link">
-            <img
-              src="img/graphic-design/Layer 55.png"
-              alt=""
-              class="news-image"
-              width="263"
-              height="208"
-            />
-            <p class="date">12<br />Feb</p>
-            <p class="news-title">Amazing Blog Post</p>
-            <p class="author">By admin</p>
-            <p class="comments">2 comment</p>
-          </a>
-        </li>
-        <li class="grid-news-item">
-          <a href="#" class="news-link">
-            <img
-              src="img/graphic-design/Layer 56.png"
-              alt=""
-              class="news-image"
-              width="263"
-              height="208"
-            />
-            <p class="date">12<br />Feb</p>
-            <p class="news-title">Amazing Blog Post</p>
-            <p class="author">By admin</p>
-            <p class="comments">2 comment</p>
-          </a>
+        <li class="next-btn">
+          <button class="btn-next right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-right svg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </button>
         </li>
       </ul>
-    </section>
-    <!-- Feedback -->
-
-    <section id="testimonial" class="section-feedback">
-      <div class="container">
-        <h2 class="section-title">What People Say About theHam</h2>
-        <div class="search">
-          <div class="center-dynamic">
-            <img
-              class="svg-employee"
-              src="img/graphic-design/shapes.svg"
-              alt=""
-              width="44"
-              height="30"
-            />
-            <!-- Paragraph -->
-            <p class="dynamic-p" id="center-p" data-employee="employee-1">
-              The Ham is both attractive and highly adaptable. I didn't even
-              need training.
-            </p>
-            <p class="dynamic-p hidden-employee" data-employee="employee-2">
-              "If you want real marketing that works and effective
-              implementation - the Ham's got you covered.
-            </p>
-            <p class="dynamic-p hidden-employee" data-employee="employee-3">
-              "It fits our needs perfectly. This is simply unbelievable! Dude,
-              your stuff is the bomb!"
-            </p>
-            <p class="dynamic-p hidden-employee" data-employee="employee-4">
-              "Best. Product. Ever! It fits our needs perfectly. Thank You! I
-              would be lost without the Ham.""
-            </p>
-            <!--  Name -->
-
-            <p class="dynamic-name" data-employee="employee-1">Nova Linbah</p>
-
-            <p class="dynamic-name hidden-employee" data-employee="employee-2">
-              Gilbert Stein
-            </p>
-            <p class="dynamic-name hidden-employee" data-employee="employee-3">
-              Valentino Gorecio
-            </p>
-            <p class="dynamic-name hidden-employee" data-employee="employee-4">
-              Adam Blue
-            </p>
-
-            <!--  Job Title -->
-
-            <p class="dynamic-job-title" data-employee="employee-1">
-              UX Designer
-            </p>
-
-            <p
-              class="dynamic-job-title hidden-employee"
-              data-employee="employee-2"
-            >
-              Customer
-            </p>
-
-            <p
-              class="dynamic-job-title hidden-employee"
-              data-employee="employee-3"
-            >
-              Designer
-            </p>
-
-            <p
-              class="dynamic-job-title hidden-employee"
-              data-employee="employee-4"
-            >
-              Manager
-            </p>
-            <div class="wrapper">
-              <img
-                src="img/employees/employee-1.jpg"
-                alt=""
-                id="modify"
-                class="employee"
-                width="166"
-                height="166"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="center-dynamic">
-          <ul class="employee-bar">
-            <li class="next-btn">
-              <button class="btn-next left">
-                <svg
-                  class="svg"
-                  width="10"
-                  height="15"
-                  viewBox="0 0 8 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M6.50764 12.5076L7.81261 11.1056L3.52463 6.49631L7.81261 1.88987L6.50764 0.486695L0.91457 6.49631L6.50764 12.5076Z"
-                    fill="#"
-                  />
-                </svg>
-              </button>
-            </li>
-            <li class="employer">
-              <button class="btn-employee" data-employee="employee-1"></button>
-              <img
-                src="img/employees/employee-1.jpg"
-                alt=""
-                class="employee active-employee"
-                width="60"
-                height="59"
-              />
-            </li>
-            <li class="employer">
-              <button class="btn-employee" data-employee="employee-2"></button>
-
-              <img
-                src="img/employees/employee-2.jpg"
-                alt=""
-                class="employee"
-                width="60"
-                height="59"
-              />
-            </li>
-            <li class="employer">
-              <button class="btn-employee" data-employee="employee-3"></button>
-
-              <img
-                src="img/employees/employee-3.jpg"
-                alt=""
-                class="employee"
-                width="60"
-                height="59"
-              />
-            </li>
-            <li class="employer">
-              <button class="btn-employee" data-employee="employee-4"></button>
-
-              <img
-                src="img/employees/employee-4.jpg"
-                alt=""
-                class="employee"
-                width="60"
-                height="59"
-              />
-            </li>
-            <li class="next-btn">
-              <button class="btn-next right">
-                <svg
-                  class="svg"
-                  width="10"
-                  height="15"
-                  viewBox="0 0 8 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M1.49213 0.48752L0.18704 1.88987L4.47503 6.49714L0.18704 11.1056L1.49213 12.5084L7.08508 6.49714L1.49213 0.48752Z"
-                    fill="#"
-                  />
-                </svg>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- Gallery -->
+    </div>
+  </div>
+</section>
 
     <section id="skills" class="page-section-1">
-      <div class="container">
-        <h2 class="section-title">Gallery of best images</h2>
-        <ul class="masonry">
-          <li class="masonry-sizer"></li>
-          <li class="masonry-item description-img">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/post1.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/post3.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item">
-            <div id="subgrid">
-              <div class="subgrid-item--width2">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (10).png" alt="" />
+    <div class="container">
+      <h2 class="section-title">Gallery of best images</h2>
+      <ul class="masonry">
+        <li class="masonry-sizer"></li>
+        <li class="masonry-item description-img">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/post1.png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/post3.png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item">
+          <div id="subgrid">
+            <div class="subgrid-item--width2">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item--width2">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (6).png" alt="" />
+              <img src="dist/img/subgrid/img- (10).png" alt="" />
+            </div>
+            <div class="subgrid-item--width2">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (1).png" alt="" />
+              <img src="dist/img/subgrid/img- (6).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (2).png" alt="" />
+              <img src="dist/img/subgrid/img- (1).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (3).png" alt="" />
+              <img src="dist/img/subgrid/img- (2).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (4).png" alt="" />
+              <img src="dist/img/subgrid/img- (3).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (5).png" alt="" />
+              <img src="dist/img/subgrid/img- (4).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (6).png" alt="" />
+              <img src="dist/img/subgrid/img- (5).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (7).png" alt="" />
+              <img src="dist/img/subgrid/img- (6).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (8).png" alt="" />
+              <img src="dist/img/subgrid/img- (7).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
-              <div class="subgrid-item">
-                <div class="subgrid-container">
-                  <button class="btn-search">
-                    <img src="img/search.svg" alt="" /></button
-                  ><button class="btn-open">
-                    <img src="img/view.svg" alt="" />
-                  </button>
-                </div>
-                <img src="img/subgrid/img- (9).png" alt="" />
+              <img src="dist/img/subgrid/img- (8).png" alt="" />
+            </div>
+            <div class="subgrid-item">
+              <div class="subgrid-container">
+                <button class="btn-search">
+                  <img src="dist/img/search.svg" alt="" /></button
+                ><button class="btn-open">
+                  <img src="dist/img/view.svg" alt="" />
+                </button>
               </div>
+              <img src="dist/img/subgrid/img- (9).png" alt="" />
             </div>
-          </li>
-          <li class="masonry-item description-img">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/post2.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/post6.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/post4.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/post5.png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(1).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(2).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(3).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(4).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(5).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(6).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(7).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(8).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(9).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(10).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item" height="376">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(11).png" alt="" class="item-img" />
-          </li>
-          <li class="masonry-item description-img hidden-grid-item">
-            <div class="subgrid-container">
-              <button class="btn-search">
-                <img src="img/search.svg" alt="" /></button
-              ><button class="btn-open">
-                <img src="img/view.svg" alt="" />
-              </button>
-            </div>
-            <img src="img/posts/new-post(12).png" alt="" class="item-img" />
-          </li>
-        </ul>
-        <div class="btnload2 center">
-          <button href="#" class="load-more2 btn1">Load More</button>
-          <div class="box">
-            <img src="img/icon.png" alt="" class="img-loading" />
-            <div class="cont">
-              <span class="circle"></span>
-              <span class="circle"></span>
-              <span class="circle"></span>
-              <span class="circle"></span>
-            </div>
-        </div>
+          </div>
+        </li>
+        <li class="masonry-item description-img">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/post2.png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/post6.png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/post4.png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/post5.png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(1).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(2).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(3).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(4).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(5).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(6).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(7).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(8).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(9).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(10).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item" height="376">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(11).png" alt="" class="item-img" />
+        </li>
+        <li class="masonry-item description-img hidden-grid-item">
+          <div class="subgrid-container">
+            <button class="btn-search">
+              <img src="dist/img/search.svg" alt="" /></button
+            ><button class="btn-open">
+              <img src="dist/img/view.svg" alt="" />
+            </button>
+          </div>
+          <img src="dist/img/posts/new-post(12).png" alt="" class="item-img" />
+        </li>
+      </ul>
+      <div class="btnload2 center">
+        <button href="#" class="load-more2 btn1">Load More</button>
+        <div class="box">
+          <img src="dist/img/icon.png" alt="" class="img-loading" />
+          <div class="cont">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </div>
       </div>
-    </section>
-
-    <!-- Footer -->
-
-    <footer class="page-footer">
-      <p class="copyright">
-        &copy Copyright 2015 <span class="special-green">theHam</span> | All
-        Rights Reserved
-      </p>
-    </footer>
+    </div>
+  </section>
+<footer class="page-footer">
+  <p class="copyright">
+    &copy Copyright 2015 <span class="special-green">theHam</span> | All Rights
+    Reserved
+  </p>
+</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script src="main.js"></script>
+    <script src="./dist/js/script.min.js"></script>
   </body>
 </html>
-
-<!-- <li class="masonry-item">
-            <ul class="sub-masonry">
-              <li class="sub-masonry-sizer"></li>
-              <li class="sub-masonry-item sub-masonry-item--width2">
-                <img src="/img/subgrid/img- (10).png" alt="" />
-              </li>
-              <li class="sub-masonry-item sub-masonry-item--width2">
-                <img src="/img/subgrid/img- (6).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (3).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (4).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (5).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (2).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (7).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (8).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (9).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (1).png" alt="" />
-              </li>
-              <li class="sub-masonry-item">
-                <img src="/img/subgrid/img- (10).png" alt="" />
-              </li>
-            </ul>
-          </li> -->

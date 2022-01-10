@@ -135,7 +135,7 @@ $(window).on("load", function () {
 
         $(".search")
           .find("#modify")
-          .attr("src", `img/employees/${$(e).attr("data-employee")}.jpg`)
+          .attr("src", `dist/img/employees/${$(e).attr("data-employee")}.jpg`)
           .animate(
             {
               opacity: 1,
@@ -146,7 +146,7 @@ $(window).on("load", function () {
 
         $(".search")
           .find("#modify")
-          .attr("src", `img/employees/${$(e).attr("data-employee")}.jpg`)
+          .attr("src", `dist/img/employees/${$(e).attr("data-employee")}.jpg`)
           .fadeIn(500);
       } else if ($(target).hasClass("right")) {
         return;
@@ -215,7 +215,7 @@ $(window).on("load", function () {
               .find("#modify")
               .attr(
                 "src",
-                `img/employees/${$(current).attr("data-employee")}.jpg`
+                `dist/img/employees/${$(current).attr("data-employee")}.jpg`
               );
 
             $(emp[i])
@@ -277,7 +277,7 @@ $(window).on("load", function () {
               .find("#modify")
               .attr(
                 "src",
-                `img/employees/${$(current).attr("data-employee")}.jpg`
+                `dist/img/employees/${$(current).attr("data-employee")}.jpg`
               );
 
             $(emp[i])
@@ -293,9 +293,7 @@ $(window).on("load", function () {
       }
     }
   });
-});
 
-$(document).ready(function () {
   let $grid = $(".masonry").masonry({
     itemSelector: ".masonry-item",
     columnWidth: ".masonry-sizer",
@@ -322,12 +320,12 @@ $(document).ready(function () {
         `<li class="masonry-item description-img ">
               <div class="subgrid-container">
                 <button class="btn-search">
-                  <img src="img/search.svg" alt="" /></button
+                  <img src="dist/img/search.svg" alt="" /></button
                 ><button class="btn-open">
-                  <img src="img/view.svg" alt="" />
+                  <img src="dist/img/view.svg" alt="" />
                 </button>
               </div>
-              <img src="img/posts/new-post(1).png" alt="" class="item-img" />
+              <img src="dist/img/posts/new-post(1).png" alt="" class="item-img" />
             </li>`
       );
 
@@ -336,12 +334,12 @@ $(document).ready(function () {
           `<li class="masonry-item description-img ">
           <div class="subgrid-container">
             <button class="btn-search">
-              <img src="img/search.svg" alt="" /></button
+              <img src="dist/img/search.svg" alt="" /></button
             ><button class="btn-open">
-              <img src="img/view.svg" alt="" />
+              <img src="dist/img/view.svg" alt="" />
             </button>
           </div>
-          <img src="img/posts/new-post(${i}).png" alt="" class="item-img" />
+          <img src="dist/img/posts/new-post(${i}).png" alt="" class="item-img" />
         </li>`
         );
         $grid.append($items).masonry("appended", $items);
